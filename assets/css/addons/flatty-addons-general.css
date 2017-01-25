@@ -1,0 +1,100 @@
+/*--------------------------------------
+SITE NAME
+---------------------------------------*/
+.flatty-site-name {
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px 40px;
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+  z-index: 2;
+}
+
+.flatty-site-name.small {
+  font-size:20px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.admin-color-light .flatty-site-name {
+    color:#333;
+    background-color: #fff;
+}
+
+/*--------------------------------------
+FLATTY CUSTOM FOOTER
+---------------------------------------*/
+.flatty-custom-footer {
+    display:flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position:absolute;
+    box-sizing: border-box;
+    padding:10px 20px;
+    bottom:0;
+    right:0;
+    width: calc(100% - 180px);
+    font-size:100%;
+    margin-left: 180px;
+    margin-right: 20px;
+    z-index: 9;
+}
+
+.flatty-custom-footer-item {
+    display: flex;
+    position: relative;
+    font-size:100%;
+    color: #aaa;
+    margin-left:20px;
+}
+
+.flatty-custom-footer-item i {
+    margin-right:8px;
+}
+
+@media only screen and (max-width: 960px) {
+    .flatty-site-name {
+        padding: 1rem;
+        font-size: 30px;
+    }
+
+}
+@media only screen and (max-width: 782px) {
+    .flatty-top-bar-logo {
+        display: none;
+        /*
+        position: relative;
+        top:0;
+        left:0;
+        margin:10px 0;
+        */
+    }
+
+    .flatty-top-bar-logo img {
+        display: block;
+        height:40px;
+        margin:auto;
+    }
+
+    .flatty-top-bar {
+        display: none;
+        /*
+        right:0;
+        text-align:center;
+        */
+    }
+
+    .flatty-top-bar a {
+        padding: 15px 20px;
+    }
+
+    .flatty-site-name {
+        display: none;
+    }
+
+}

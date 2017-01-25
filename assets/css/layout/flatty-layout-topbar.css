@@ -1,0 +1,12 @@
+/*--------------------------------------
+TOPBAR
+---------------------------------------*/
+#wpadminbar {
+    position:relative;
+    width: calc(100% + 40px);
+    margin: -20px 0 20px -20px;
+}
+
+#wpadminbar * {
+    font: 400 11px/32px "Open Sans",sans-serif;
+}

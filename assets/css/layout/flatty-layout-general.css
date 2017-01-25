@@ -1,0 +1,45 @@
+/*--------------------------------------
+OTHERS
+---------------------------------------*/
+table.widefat {
+    border:none;
+    box-shadow: none;
+    margin: 3rem 0;
+}
+
+.wp-list-table thead,
+.wp-list-table tfoot {
+  opacity:0.2;
+  transition: opacity .3s;
+}
+
+.wp-list-table thead:hover,
+.wp-list-table tfoot:hover {
+  opacity:1;
+}
+
+.alternate,
+.striped>tbody>:nth-child(even),
+ul.striped>:nth-child(even)
+{
+    background-color: #f9f9f9
+}
+
+.alternate,
+.striped>tbody>:nth-child(odd),
+ul.striped>:nth-child(odd)
+{
+    background-color: #fff
+}
+
+/*--------------------------------------
+ARTICLE EDITOR
+---------------------------------------*/
+#wp-content-editor-tools {
+  background:#fff;
+  background: linear-gradient(to top, rgba(255,255,255,1) 20%, rgba(255,255,255,0) 100%);
+}
+
+.mce-toolbar .mce-ico {
+  color: #607D8B!important;
+}
